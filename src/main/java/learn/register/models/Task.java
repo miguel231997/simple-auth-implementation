@@ -7,6 +7,15 @@ public class Task {
     private String description;
     private String status;
 
+    public Task(Long id, String title, String description, String status) {
+
+        this.id = id;
+        this.title = title;
+        this.description = description;
+        this.status = status;
+        this.id = id;
+    }
+
     //Getters and Setters
 
     public Long getId(){
